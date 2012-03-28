@@ -1,0 +1,12 @@
+The task is to answer: what is the most likely identifier (URI) for a given ambiguous name (surface form) if this name appeared in the context of words w_1,...,w_n. This is basically the question that DBpedia Spotlight's disambiguation module tries to answer. 
+
+
+Setting up
+
+1. Need to install  mongodb first ( http://www.mongodb.org/display/DOCS/Quickstart )
+
+2. Need to install drivers for python (http://api.mongodb.org/python/current/installation.html)
+
+3. Run the populate code (to populate the db)
+
+4. Run the code to check results for the query
